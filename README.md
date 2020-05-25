@@ -1,2 +1,2 @@
-XHD Series Filmes Games Supercompactados 
-Todos os direitos reservados by  XHD Series
+ Supercompactados.top Filmes Series Games Site NTG!
+Todos os direitos reservados by NTG!
