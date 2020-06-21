@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Custom HTML5 Video Player</title>
+   <link rel="stylesheet" href="css/videoPlayer.css" />
+   
+   <style>
+       /* Unnecessary for video functionality. Feel free to remove. */
+	   body {
+	background: #666;
+	font-family: 'Myriad-Pro', helvetica, sans-serif;
+	background-image: url(img/body-bg.gif);
+}
+	   #container { width: 500px; margin: auto; margin-top: 30px;}
+	   h1 { font-size: 50px; color: #777; text-align: center; text-shadow: 0 -1px 0 black, 0 1px 0 black;}
+   body,td,th {
+	font-family: Myriad-Pro, helvetica, sans-serif;
+}
+   </style>
+
+</head>
+<body>
+
+<div id="container">
+
+	
+
+	<div id="video_container">
+		<video controls width=480 preload poster=img/play1_amal.jpg>
+			<source src="https://onedrive.live.com/download?resid=AFF72724C7C15771%21113&113&authkey=!ACTCfW7xcUyXgEY" type="video/mp4"true" width="480" height="450">
+			<source src="https://onedrive.live.com/download?resid=AFF72724C7C15771%21113&113&authkey=!ACTCfW7xcUyXgEY" type="video/mp4" type="video/ogg">
+			
+			<object width="480" height="480"><param name="movie" value="https://onedrive.live.com/download?resid=AFF72724C7C15771%21113&113&authkey=!ACTCfW7xcUyXgEY" type="video/mp4"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://onedrive.live.com/download?resid=AFF72724C7C15771%21113&113&authkey=!ACTCfW7xcUyXgEY" type="video/mp4" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="350"></embed></object>
+		</video>
+		
+		<div id="videoControls">
+			<button id="play" title="Play"> &#x25BA; </button>
+			
+			<div id="progress"> 
+				<div id="progress_box"> 
+						<span id="play_progress"></span>
+				</div> 
+			</div>
+			
+		  <button id="fullScreen" title="FullScreen Toggle">  FS </button>
+			<a href="http://www.xhdseries.top"><img src="img/tuts_logo.png" alt="Tuts" id="video_tutsLogo" /></a>
+		</div>
+	</div>
+
+</div>	
+
+<script src="js/videoPlayer.js"></script>
+
+</body>
+<div style="text-align: center;">
+<font color="#3367d6" size="1">TODOS DIREITOS RESERVADOS @ <a href="https://www.xhdseries.top/" target="_blank">XHDSERIES</a> @ <a href="https://supercompactado.top/" target="_blank">SUPERCOMPACTADO.TOP</a> website <a href="https://www.nitgames.rip/" target="_blank">NTG!</a></font></div>
+</html>
